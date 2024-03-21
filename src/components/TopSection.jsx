@@ -26,7 +26,7 @@ export default function TopSection() {
             <div className="dark-mode-toggle-container">
                 <span className="dark-mode-span">Dark Mode</span> 
                 <label className="switch">
-                    <input type="checkbox" onChange={toggleTheme}/>
+                    <input type="checkbox" onChange={toggleTheme} name="dark-mode-toggle"/>
                     <span className="slider round"></span>
                 </label>
             </div>            

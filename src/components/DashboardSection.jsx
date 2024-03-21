@@ -9,6 +9,7 @@ export default function SocialSection() {
     return (
         <div className="dashboard-container">
         <DashboardCard
+          id="1"
           socialSite="facebook"
           imgSrc={iconFacebook}
           userName="nathanf"
@@ -17,6 +18,7 @@ export default function SocialSection() {
           upDown="up"
         />
         <DashboardCard
+          id="2"
           socialSite="twitter"
           imgSrc={iconTwitter}
           userName="nathanf"
@@ -25,6 +27,7 @@ export default function SocialSection() {
           upDown="up"
         />
         <DashboardCard
+          id="3"
           socialSite="instagram"
           imgSrc={iconInstagram}
           userName="realnathanf"
@@ -33,6 +36,7 @@ export default function SocialSection() {
           upDown="up"
         />
         <DashboardCard
+          id="4"
           socialSite="youtube"
           imgSrc={iconYoutube}
           userName="Nathan F."
