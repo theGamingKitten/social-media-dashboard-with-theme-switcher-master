@@ -28,7 +28,8 @@ Users should be able to:
 ### Screenshots
 
 ![](./screenshot.jpg)
-![](./screenshot_mobile.jpg)
+![](./screenshot_lightmode.jpg)
+[(Mobile screenshot too long to show here)](./screenshot_mobile.jpg) 
 
 
 ### Links
