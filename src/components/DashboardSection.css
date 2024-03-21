@@ -1,0 +1,9 @@
+.dashboard-container {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+  }

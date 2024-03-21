@@ -1,0 +1,86 @@
+@import "../themes.css";
+
+/* SOCIAL MEDIA BORDERS */
+.facebook {
+    border-top: 3px solid hsl(208, 92%, 53%);
+}
+
+.twitter {
+    border-top: 3px solid hsl(203, 89%, 53%);
+}
+
+.instagram {
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 30;
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+
+.youtube {
+    border-top: 3px solid hsl(348, 97%, 39%);
+}
+
+.dashboard-card {
+    background-color: var(--background-card);
+    color: var(--text-color-one);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 25px 50px;
+}
+
+.dashboard-card:hover {
+    cursor: pointer;
+    filter: var(--filter-on-card);
+}
+
+.username-span,
+.today-span {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.username-span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.follower-count {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color-two);
+}
+
+.follower-span {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.today-span { 
+    display: flex;
+}
+
+.up {
+    color: hsl(163, 72%, 41%);
+}
+.up:before {
+    content: url('../assets/images/icon-up.svg');
+}
+
+.down {
+    color: hsl(356, 69%, 56%);
+}
+.down:before {
+    content: url('../assets/images/icon-down.svg');
+}
+
+.up::before,
+.down:before {
+    margin-right: 3px;
+    line-height: 100%;
+}

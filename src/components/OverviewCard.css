@@ -1,0 +1,67 @@
+@import "../themes.css";
+
+.overview-card {
+    background-color: var(--background-card);
+    color: var(--text-color-one);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.overview-card:hover {
+    cursor: pointer;
+    filter: var(--filter-on-card);
+}
+
+.stats-span,
+.number-span {
+    justify-self: start;
+}
+
+.icon-span,
+.percentage-span {
+    justify-self: end;
+}
+
+.stats-span {
+    color: var(--text-color-one);
+    font-weight: 700;
+}
+
+.number-span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.percentage-span {
+    display: flex;
+}
+
+.today-span { 
+    display: flex;
+}
+
+.up {
+    color: hsl(163, 72%, 41%);
+}
+.up:before {
+    content: url('../assets/images/icon-up.svg');
+}
+
+.down {
+    color: hsl(356, 69%, 56%);
+}
+.down:before {
+    content: url('../assets/images/icon-down.svg');
+}
+
+.up::before,
+.down:before {
+    margin-right: 3px;
+    line-height: 100%;
+}
