@@ -98,7 +98,7 @@ hr {
 }
 
 
-@media (max-width: 769px) {
+@media (max-width: 426px) {
     .top-section {
         flex-direction: column;
     }

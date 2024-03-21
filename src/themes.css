@@ -1,6 +1,5 @@
 [data-theme="dark"] {
     --background-color: hsl(230, 17%, 14%);
-    /*- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)*/
     --background-card: hsl(228, 28%, 20%);
     --text-color-one: hsl(228, 34%, 66%);
     --text-color-two: hsl(0, 0%, 100%);
@@ -12,7 +11,6 @@
 
 [data-theme="light"] {
     --background-color: hsl(0, 0%, 100%);
-    /*- Very Dark Blue (Top BG Pattern): hsl(225, 100%, 98%)*/
     --background-card: hsl(227, 47%, 96%);
     --text-color-one: hsl(228, 12%, 44%);
     --text-color-two: hsl(230, 17%, 14%);

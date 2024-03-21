@@ -7,9 +7,16 @@
     justify-content: space-between;
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 426px) {
     .dashboard-container {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, 1fr);
+    }
+  }
+
+  @media (min-width: 426px) and (max-width: 769px) {
+    .dashboard-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
   }
