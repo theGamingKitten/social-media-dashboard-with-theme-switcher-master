@@ -8,14 +8,13 @@
     margin-bottom: 40px;
 }
 
-h1,
-h2,
-.dark-mode-span {
-    color: var(--text-color-one);
+h1 {
+    color: var(--text-color-two);
 }
 
 h2,
 .dark-mode-span {
+    color: var(--text-color-one);
     font-size: 0.9rem;
     font-weight: 700;
 }
@@ -92,4 +91,29 @@ input:checked + .slider:before {
   
 .slider.round:before {
     border-radius: 50%;
+}
+
+hr {
+    visibility: hidden;
+}
+
+
+@media (max-width: 769px) {
+    .top-section {
+        flex-direction: column;
+    }
+    hr {
+        visibility: visible;
+        width: 100%;
+        height: 1px;
+        background-color: var(--line-color);
+        border: 0;
+        margin: 20px 0;
+    }
+    .dark-mode-toggle-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
 }

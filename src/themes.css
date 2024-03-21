@@ -7,6 +7,7 @@
     --toggle: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     --toggle-hover: var(--toggle);
     --filter-on-card: brightness(125%);
+    --line-color: var(--text-color-one);
 }
 
 [data-theme="light"] {
@@ -18,4 +19,5 @@
     --toggle: hsl(230, 22%, 74%);
     --toggle-hover: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     --filter-on-card: brightness(95%);
+    --line-color: var(--text-color-one);
 }

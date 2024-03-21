@@ -1,9 +1,15 @@
 .dashboard-container {
     margin: auto;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @media (max-width: 769px) {
+    .dashboard-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+    }
   }

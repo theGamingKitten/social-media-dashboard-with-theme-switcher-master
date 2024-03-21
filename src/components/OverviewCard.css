@@ -36,6 +36,7 @@
 .number-span {
     font-size: 30px;
     font-weight: 700;
+    color: var(--text-color-two);
 }
 
 .percentage-span {
